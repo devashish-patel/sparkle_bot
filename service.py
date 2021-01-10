@@ -12,7 +12,7 @@ def create_bot():
     """
     Creates the chat bot
     """
-    bot = ChatBot('BOT_NAME',
+    bot = ChatBot(BOT_NAME,
                   storage_adapter='chatterbot.storage.SQLStorageAdapter',
                   logic_adapters=[{
                       'import_path': 'chatterbot.logic.BestMatch',
